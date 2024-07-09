@@ -1,6 +1,6 @@
 name: Hello World Docker Action
 
-on: 
+on:
   workflow_dispatch:
     inputs:
       Who-to-greet:
