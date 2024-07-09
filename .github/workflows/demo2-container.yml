@@ -1,5 +1,4 @@
 name: Hello World Docker Action
-
 on:
   workflow_dispatch:
     inputs:
