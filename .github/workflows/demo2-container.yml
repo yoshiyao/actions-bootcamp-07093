@@ -2,12 +2,11 @@ name: Hello World Docker Action
 on:
   workflow_dispatch:
     inputs:
-      Who-to-greet:
-        description: who to greet in the log
-        required: ture
+      who-to-greet:
+        description: Who to greet in the log
+        required: true
         default: 'World'
         type: string
-
 jobs:
   say-hello:
     name: Say Hello
